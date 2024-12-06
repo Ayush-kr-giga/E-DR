@@ -12,15 +12,17 @@ height:100%;
     margin:8% auto;
     margin-top: 8%;
     background: #fff;
+    
     border-radius: 10px;
     position: relative;
     overflow: hidden;
     text-align: center;
-    background: linear-gradient(-50deg,#03a9f4 0%, #3a78b7
-50%, #262626 50%, #607d8b 100%);
-animation:animate 10s linear infinite;
+    /* background-color: rgba(75, 73, 73, 0.685);
+    color: white; */
+
+    /* background-color: white; */
     }
-    @keyframes animate{
+    /* @keyframes animate{
 
         0%{
             filter:hue-rotate(0deg);
@@ -34,7 +36,7 @@ animation:animate 10s linear infinite;
     margin-bottom: 40px;
     color:#777;
     
-}
+} */
 
 
 input[type="radio"]{
@@ -190,7 +192,7 @@ form{
     width:50%;
     background-color: black;
 }
-
+}
 @media only screen and (max-width: 695px){
 
 .container{
@@ -199,4 +201,4 @@ form{
     margin-top: 0px;
     font-size: smaller;
 }
-
+}
